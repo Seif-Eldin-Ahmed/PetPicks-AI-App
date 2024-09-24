@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(/static/assets/cat&dog_3.jpg) no-repeat;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+}
+
+
+h1 {
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 20px;
+}
+h2 {
+    margin-bottom: 50px;
+    margin-left: 95px;
+    margin-right: auto;
+    margin-top: -42px;
+}
+
+span {
+    color: #faebd7;
+}
+
+
+#upload-form {
+    text-align: center;
+    max-width: 215px;
+    margin-left: 42px;
+    margin-right: auto;
+    margin-top: -10px;
+    background-color: rgb(255, 255, 255,0.5);
+    padding: 50px 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.3);
+}
+
+
+#file-input {
+    display: none;
+}
+
+
+#upload-btn-wrapper {
+    display: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+#upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+
+#upload-btn-wrapper label {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 13px;
+    font-weight: bold;
+    background-color: #3498db;
+    color: #fff;
+}
+
+
+#upload-btn-wrapper label:hover {
+    background-color: #2980b9;
+}
+
+
+button {
+    cursor: pointer;
+    background-color: #27ae60;
+    color: #fff;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 13px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #20914f;
+}
+
+#result label{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: -15px;
+    background-color: #57575799;
+    color: #57575700;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+
+#result-container {
+    color: #ffffffef;
+    margin-bottom: 0px;
+    margin-left: 107px;
+    margin-right: auto;
+    margin-top: -72px;
+    font-weight: bold;
+}
