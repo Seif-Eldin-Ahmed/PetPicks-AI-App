@@ -5,7 +5,7 @@
 This software classifies and differentiates between a dog and a cat using (**AI**) artificial intelligence.
 
 #
-### The idea of the project work:
+### How the software works:
 The client runs the link and then the main interface (Home page) appears in front of him, in which he sees a form consisting of:
  - (Choose a file) button for uploading an image.
  - (Classify) button to classify an image you choose.
