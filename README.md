@@ -12,7 +12,7 @@ The client runs the link and then the main interface (Home page) appears in fron
  - (Empty field) to show the result of the classification.
 
 #
-### What languages are we used:
+### What languages and frameworks are we used:
 - Python
 - Flask
 - HTML
